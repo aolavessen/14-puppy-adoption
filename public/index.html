@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>14-puppy-adoption</title>
-  <link rel="stylesheet" href="/app.css">
-</head>
-<body>
-  <div class="boss-container">
-    <div class="top-bar">
-      <p>Puppies</p>
-    </div>
-    <div class="puppy-entry">
-      <div class="puppy-photo">
-      <img src="http://www.fillmurray.com/200/200" alt="">
-    </div>
-      <div class="puppy-info">
-      <div class="puppy-name">
-        <p>Golum</p>
+  <head>
+    <meta charset="utf-8">
+    <title>14-puppy-adoption</title>
+    <link rel="stylesheet" href="/app.css">
+  </head>
+  <body>
+    <div class="boss-container">
+      <nav class="top-bar">
+        <p>Puppies</p>
+      </nav>
+      <div class="dropdown-container">
+        <div class="dropdown-bar">
+          <p>Puppies</p>
+        </div>
+        <div class="info-new">
+          <div class="profile-info">
+          <div class="name-new">
+            <p>Name</p>
+            <input></input>
+          </div>
+          <div class="new-age">
+            <p>Age</p>
+            <input></input>
+          </div>
+          <div class="new-url">
+            <p>Photo URL</p>
+            <input></input>
+          </div>
+          <div class="new-profile">
+            <p>Profile</p>
+            <input></input>
+          </div>
+          <div class="button-save">
+            <button class="save-button">Save</button>
+          </div>
+        </div>
+        </div>
       </div>
-      <div class="puppy-age">
-        <p>12</p>
+      <div class="puppy-entry">
+        <div class="puppy-photo">
+          <img src="http://www.fillmurray.com/200/200" alt="">
+        </div>
+        <div class="puppy-info">
+          <div class="puppy-name">
+            <p>Name</p>
+          </div>
+          <div class="puppy-age">
+            <p>Age</p>
+          </div>
+          <div class="puppy-url">
+            <p>Photo URL</p>
+          </div>
+          <div class="puppy-profile">
+            <p>Profile</p>
+          </div>
+          <div class="buttons">
+            <button class="delete-button">Delete</button>
+            <button class="update-button">Update</button>
+          </div>
+        </div>
       </div>
-      <div class="puppy-profile">
-        <p>He is a real ladies man!!</p>
-      </div>
-    <div class="buttons">
-      <button>Delete</button>
-      <button>Update</button>
     </div>
-  </div>
-    </div>
-  </div>
 
-  <script src="/vendor.js" charset="utf-8"></script>
-  <script src="/app.js" charset="utf-8"></script>
+    <script src="/vendor.js" charset="utf-8"></script>
+    <script src="/app.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
-  </script>
-</body>
+    <script type="text/javascript">
+      var index = require(`index`);
+      index();
+    </script>
+  </body>
 </html>

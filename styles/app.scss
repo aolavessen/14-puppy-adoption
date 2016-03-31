@@ -6,24 +6,93 @@
 @import 'box-sizing';
 
 
+
 .boss-container {
-  // background-color: purple;
+
   width: 100%;
+
 
 }
 
 .top-bar {
+  display: flex;
   margin: auto;
   width: 70rem;
+  color: white;
 
-  background-color: orange;
+  background-color: darkorange;
+  border-bottom: solid white;
+  // .cursor {
+  //   cursor: crosshair;
+  // }
 
 }
 
+.dropdown-container {
+
+  // display: flex;
+  margin: auto;
+  width: 70rem;
+  // color: white;
+
+  background-color: #555;
+}
+
+.dropdown-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: darkorange;
+  color: white;
+
+
+}
+
+.info-new {
+  background-color: #555;
+  color: white;
+
+
+}
+
+.profile-info {
+  margin: auto;
+  width: 40rem;
+}
+
+.name-new {
+  border-bottom: solid #333;
+}
+
+.new-age {
+  border-bottom: solid #333;
+
+}
+
+.new-url {
+  border-bottom: solid #333;
+
+}
+
+.new-profile {
+  border-bottom: solid #333;
+
+}
+
+.button-save {
+
+}
+
+.save-button {
+  background-color: orange;
+  color: white;
+}
+
 .puppy-entry {
+
   margin: auto;
   background-color: lightgrey;
   width: 45rem;
+  border-top: solid white;
 
 
   display: flex;
@@ -36,17 +105,50 @@
 }
 
 .puppy-info {
-
+  width: 30rem;
+  // background-color: yellow;
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
 }
 
+.puppy-name {
+
+  border-bottom: solid darkgrey;
+}
+
+.puppy-age {
+
+  border-bottom: solid darkgrey;
+}
+
+.puppy-url {
+
+  border-bottom: solid darkgrey;
+}
+
+.puppy-profile {
+
+  border-bottom: solid darkgrey;
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
+
+
   // flex-direction: column;
 
 
 
+}
+
+.delete-button {
+  color: white;
+  background-color: orange;
+}
+
+.update-button {
+  color: white;
+  background-color: orange;
 }
