@@ -11,3 +11,4 @@ export default class ApplicationView {
     });
     const puppyList = document.querySelector(`.puppy-list`);
   }
+}

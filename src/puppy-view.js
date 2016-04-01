@@ -13,19 +13,19 @@ export default class PuppyView {
   }
 
 
- renderPuppyPhoto() {
-   document.querySelector(`.puppy-photo`).innerHTML = `<img src="${this.info.photoUrl}" alt="" class="puppy-img"/>`
+  renderPuppyPhoto() {
+    document.querySelector(`.puppy-photo`).innerHTML = `<img src="${this.info.photoUrl}" alt="" class="puppy-img"/>`;
  }
- renderPuppyName() {
-   document.querySelector(`.puppy-name`).innerHTML = `${this.info.name}`
+  renderPuppyName() {
+    document.querySelector(`.puppy-name`).innerHTML = `${this.info.name}`;
  }
- renderPuppyAge() {
-   document.querySelector(`.puppy-age`).innerHTML = `${this.info.age}`
+  renderPuppyAge() {
+    document.querySelector(`.puppy-age`).innerHTML = `${this.info.age}`;
  }
- renderPuppyUrl() {
-   document.querySelector(`.puppy-url`).innerHTML = `${this.info.url}`
+  renderPuppyUrl() {
+    document.querySelector(`.puppy-url`).innerHTML = `${this.info.url}`;
  }
- renderPuppyProfile() {
-   document.querySelector(`.puppy-profile`).innerHTML = `${this.info.profile}`
+  renderPuppyProfile() {
+    document.querySelector(`.puppy-profile`).innerHTML = `${this.info.profile}`;
  }
  }
