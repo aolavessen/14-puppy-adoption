@@ -1,10 +1,9 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+ @import 'font-awesome';
 @import 'box-sizing';
-
 
 body {
   margin: auto;
@@ -49,7 +48,6 @@ width: 1rem;
   width: 100%;
   background: grey;
   color: white;
-
 }
 
 .dropdown-sub-container {
@@ -66,14 +64,37 @@ width: 1rem;
 
 .input-heading {
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+
 }
 
-.dropdown-input {
+.dropdown-name {
   background: grey;
   border: 0;
   border-bottom: 1px black solid;
   width: 100%;
+  font-size: 1rem;
+}
 
+.dropdown-age {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.dropdown-photoUrl {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.dropdown-profile {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
 }
 
 .dropdown-button {
@@ -111,7 +132,8 @@ width: 1rem;
 }
 
 .puppy-input-heading {
-  margin-top: 0;
+  margin: 0.5rem;
+  margin-left: 0;
 }
 
 .puppy-button-list {
