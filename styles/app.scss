@@ -5,6 +5,7 @@
  @import 'font-awesome';
 @import 'box-sizing';
 
+
 body {
   margin: auto;
   width: 95vw;
@@ -112,11 +113,37 @@ width: 1rem;
   width: 60rem;
   background: lightgrey;
   margin: auto;
+  margin-top: 1rem;
+  border: 1px solid dargrey;
 }
 
 .puppy-pic {
   width: 100%;
   margin: 1rem;
+}
+
+.puppy-name {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-age {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-url {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-writeup {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
 }
 
 .puppy-form {
