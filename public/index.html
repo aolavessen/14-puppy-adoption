@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>14-puppy-adoption</title>
-  <link rel="stylesheet" href="/app.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>14-puppy-adoption</title>
+    <link rel="stylesheet" href="/app.css">
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="nav-bar">
+        <p class="nav-text">Puppies</p>
+        <p class="icon">
+          <i class="fa fa-plus-circle"></i></p>
+      </div>
 
-  <script src="/vendor.js" charset="utf-8"></script>
-  <script src="/app.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
-  </script>
-</body>
+        <div id="dropdownId" class="dropdown">
+          <div class="dropdown-container">
+            <div class="dropdown-sub-container">
+              <p class="dropdown-heading">Add a new puppy</p>
+              <div class="input-field">
+                <h5 class="input-heading">Name</h5>
+                <input class="dropdown-name" type="text">
+              </div>
+              <div class="input-field">
+                <h5 class="input-heading">Age</h5>
+                <input class="dropdown-age" type="text">
+              </div>
+              <div class="input-field">
+                <h5 class="input-heading">Photo URL</h5>
+                <input class="dropdown-photoUrl" type="text">
+              </div>
+              <div class="input-field">
+                <h5 class="input-heading">Profile</h5>
+                <input class="dropdown-profile" type="text">
+              </div>
+              <button class="dropdown-button">Save</button>
+    </div>
+  </div>
+</div>
+  </nav>
+  <div class="puppy-list"></div>
+    <script src="/vendor.js" charset="utf-8"></script>
+    <script src="/app.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      var index = require(`index`);
+      index();
+    </script>
+  </body>
 </html>

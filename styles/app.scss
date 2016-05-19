@@ -1,6 +1,189 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+ @import 'font-awesome';
 @import 'box-sizing';
+
+
+body {
+  margin: auto;
+  width: 95vw;
+}
+
+nav {
+  background: darkorange;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60rem;
+  margin: auto;
+  color: white;
+  align-items: center;
+}
+
+.nav-text {
+  width: 4rem;
+  font-size: 1.5rem;
+}
+
+.nav-icon {
+width: 1rem;
+}
+
+.dropdown {
+  display: none;
+  font-family: sans-serif;
+  width: 100%;
+  background: grey;
+  color: white;
+}
+
+.dropdown--active {
+  display: block;
+  font-family: sans-serif;
+  width: 100%;
+  background: grey;
+  color: white;
+}
+
+.dropdown-sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin: auto;
+}
+
+.dropdown-heading {
+  font-size: 1.4rem;
+
+}
+
+.input-heading {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.dropdown-name {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.dropdown-age {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.dropdown-photoUrl {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.dropdown-profile {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
+}
+
+.dropdown-button {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: white;
+  align-self: flex-end;
+}
+
+.puppy-profile {
+  display: flex;
+  width: 60rem;
+  background: lightgrey;
+  margin: auto;
+  margin-top: 1rem;
+  border: 1px solid dargrey;
+}
+
+.puppy-pic {
+  width: 100%;
+  margin: 1rem;
+}
+
+.puppy-name {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-age {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-url {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-writeup {
+  background: lightgrey;
+  border: 0;
+  width: 100%;
+}
+
+.puppy-form {
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+  margin-top: 1rem;
+}
+
+.puppy-input {
+  margin-top: 0;
+  border-bottom: 1px black solid;
+}
+
+.puppy-input-heading {
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.puppy-button-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+
+}
+
+.update {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+
+}
