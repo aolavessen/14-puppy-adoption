@@ -6,7 +6,7 @@ export default function () {
   fetch(`http://tiny-tn.herokuapp.com/collections/ryan-puppy`)
     .then((response) => response.json())
     .then((info) => {
-      const element = document.querySelector(`.puppy-entry`);
-      const puppyEntry = new PuppyView(element, info[0]);
+      const puppyEntry = new PuppyView(info[0]);
+      document.querySelector(`.puppy-list`).appendChild(puppyEntry.element);
     });
 }
