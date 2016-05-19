@@ -6,177 +6,135 @@
 @import 'box-sizing';
 
 
+body {
+  margin: auto;
+  width: 95vw;
+}
 
-.boss-container {
-
+nav {
+  background: darkorange;
   width: 100%;
-
-
 }
 
-.top-bar {
-  display: flex;
-  margin: auto;
-  width: 70rem;
-  color: white;
-
-  background-color: darkorange;
-  border-bottom: solid white;
-  &:hover {
-    cursor: pointer;
-  }
-
-}
-
-.dropdown-container {
-
-  // display: none;
-  margin: auto;
-  width: 70rem;
-  // color: white;
-
-  background-color: #555;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.dropdown-container-active {
-
-
-}
-
-.dropdown-bar {
+.nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: darkorange;
-  color: white;
-  &:hover {
-    cursor: pointer;
-  }
-
-
-}
-
-.info-new {
-  background-color: #555;
-  color: white;
-
-
-}
-
-.profile-info {
+  justify-content: space-between;
+  width: 60rem;
   margin: auto;
-  width: 40rem;
-}
-
-.info-block {
- width: 40rem;
- background: transparent;
- border: none;
-}
-
-.name-new {
-  border-bottom: solid #333;
-}
-
-.new-age {
-  border-bottom: solid #333;
-
-}
-
-.new-url {
-  border-bottom: solid #333;
-
-}
-
-.new-profile {
-  border-bottom: solid #333;
-
-}
-
-.button-save {
-
-}
-
-.save-button {
-  background-color: orange;
   color: white;
-  &:hover {
-    cursor: pointer;
-  }
+  align-items: center;
 }
 
-.puppy-entry {
-
-  margin: auto;
-  background-color: lightgrey;
-  width: 50rem;
-  border-top: solid white;
-
-
-  display: flex;
-  &:hover {
-    cursor: pointer;
-  }
+.nav-text {
+  width: 4rem;
+  font-size: 1.5rem;
 }
 
-.puppy-photo {
-  padding: 1rem;
+.nav-icon {
+width: 1rem;
 }
 
-.puppy-info {
-  width: 30rem;
-  // background-color: yellow;
+.dropdown {
+  display: none;
+  font-family: sans-serif;
+  width: 100%;
+  background: grey;
+  color: white;
+}
+
+.dropdown--active {
+  display: block;
+  font-family: sans-serif;
+  width: 100%;
+  background: grey;
+  color: white;
+
+}
+
+.dropdown-sub-container {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
+  width: 60rem;
+  margin: auto;
 }
 
-.puppy-name {
+.dropdown-heading {
+  font-size: 1.4rem;
 
-  border-bottom: solid darkgrey;
 }
 
-.puppy-age {
-
-  border-bottom: solid darkgrey;
+.input-heading {
+  font-size: 1.1rem;
 }
 
-.puppy-url {
+.dropdown-input {
+  background: grey;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 100%;
 
-  border-bottom: solid darkgrey;
+}
+
+.dropdown-button {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: white;
+  align-self: flex-end;
 }
 
 .puppy-profile {
-
-  border-bottom: solid darkgrey;
+  display: flex;
+  width: 60rem;
+  background: lightgrey;
+  margin: auto;
 }
 
-.buttons {
+.puppy-pic {
+  width: 100%;
+  margin: 1rem;
+}
+
+.puppy-form {
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+  margin-top: 1rem;
+}
+
+.puppy-input {
+  margin-top: 0;
+  border-bottom: 1px black solid;
+}
+
+.puppy-input-heading {
+  margin-top: 0;
+}
+
+.puppy-button-list {
   display: flex;
   justify-content: space-between;
+}
 
-
-  // flex-direction: column;
-
-
+.delete {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
 
 }
 
-.delete-button {
-  border-top: 1rem;
+.update {
+  background: darkorange;
+  border: 0;
+  border-radius: .4rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
   color: white;
-  background-color: orange;
-  &:hover {
-    cursor: pointer;
-  }
-}
 
-.update-button {
-  color: white;
-  background-color: orange;
-  &:hover {
-    cursor: pointer;
-  }
 }

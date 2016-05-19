@@ -6,43 +6,69 @@
     <link rel="stylesheet" href="/app.css">
   </head>
   <body>
-    <div class="boss-container">
-      <nav class="top-bar">
-        <p>Puppies</p>
-      </nav>
-      <div class="dropdown-container">
-        <div class="dropdown-bar">
-          <p>Puppies</p>
-        </div>
-        <div class="info-new">
-          <div class="profile-info">
-            <h3>Add a new puppy </h3>
-          <div class="name-new">
-            <p>Name</p>
-            <input class="info-block"</input>
-          </div>
-          <div class="new-age">
-            <p>Age</p>
-            <input class="info-block"</input>
-          </div>
-          <div class="new-url">
-            <p>Photo URL</p>
-            <input class="info-block"</input>
-          </div>
-          <div class="new-profile">
-            <p>Profile</p>
-            <input class="info-block"</input>
-          </div>
-          <div class="button-save">
-            <button class="save-button">Save</button>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="puppy-list">
+    <nav>
+  <div class="nav-bar">
+    <p class="nav-text">Puppies</p>
+    <p class="icon"><i class="fa fa-plus-circle"></i></p>
+  </div>
+</nav>
 
-      </div>
+      <div class="dropdown">
+        <div class="dropdown-sub-container">
+          <p class="dropdown-heading">Add a new puppy</p>
+
+        <div class="input-field">
+          <h5 class="input-heading">Name</h5>
+          <input class="dropdown-input" type="text">
+        </div>
+
+        <div class="input-field">
+          <h5 class="input-heading">Age</h5>
+          <input class="dropdown-input" type="text">
+        </div>
+        <div class="input-field">
+          <h5 class="input-heading">Photo URL</h5>
+          <input class="dropdown-input" type="text">
+        </div>
+        <div class="input-field">
+          <h5 class="input-heading">Profile</h5>
+          <input class="dropdown-input" type="text">
+        </div>
+        <button class="dropdown-button">Save</button>
+        </div>
+        </div>
+
+      <div class="puppy-list">
+        <div class="puppy-profile">
+          <div class="puppy-pic-parent">
+            <div class="puppy-pic">
     </div>
+    </div>
+    <div id="puppyForm" class="puppy-form">
+  <div class="puppy-input">
+    <p class="puppy-input-heading">Name</p>
+    <div class="puppy-name"></div>
+  </div>
+  <div class="puppy-input">
+    <p class="puppy-input-heading">Age</p>
+    <div class="puppy-age"></div>
+  </div>
+  <div class="puppy-input">
+    <p class="puppy-input-heading">Photo URL</p>
+    <div class="puppy-url"></div>
+  </div>
+  <div class="puppy-input">
+    <p class="puppy-input-heading">Profile</p>
+    <div class="puppy-writeup"></div>
+
+  </div>
+  <div class="puppy-button-list">
+  <button class="delete">Delete</button>
+  <button class="update">Update</button>
+  </div>
+</div>
+</div>
+</div>
 
     <script src="/vendor.js" charset="utf-8"></script>
     <script src="/app.js" charset="utf-8"></script>
